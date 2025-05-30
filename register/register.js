@@ -14,7 +14,7 @@ login.onclick = async () => {
     }).then(res => res.json()).then(n => {
         if (n.status == "success") {
             info.innerText = `Account ${username.value} registered! Going back to login page in 3 seconds.`;
-            setTimeout(()=>{window.location.href = "/login.html"}, 3000);
+            setTimeout(()=>{window.location.href = "../login/login.html"}, 3000);
         }
     });
 

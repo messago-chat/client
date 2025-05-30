@@ -3,15 +3,20 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>register - messago</title>
+    <title>Register - messago</title>
+    <link rel="stylesheet" href="../styles/login-register.css">
 </head>
 <body>
+    <div id="banner">
+        <img id="logo" src="../assets/messago_logo.svg">
+    </div>
     <h2>Register new user:</h2>
     <div class="register">
         <p>Username: </p><input type="text" id="username">
         <p>Password: </p><input type="password" id="password">
         <button id="register">Register</button>
     </div>
+    <p><span id="info"></span></p>
     <p><a style="text-decoration: none;" href="/login.html">&lt;-- Back</a><p>
     <script src="register.js"></script>
 </body>
