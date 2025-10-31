@@ -1,0 +1,42 @@
+@font-face {
+    font-family: "Hedvig";
+    src: url("/assets/hedvig.woff2");
+}
+
+:root {
+    --blue: #2776FF;
+}
+
+html {
+    font-family: "Hedvig";
+}
+
+.top {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100vw;
+    position: relative;
+}
+
+.top span {
+    margin-right: 50px; 
+}
+
+.top span#signoff {
+    position: relative;
+    left: 88dvw;
+    margin-top: 10px;
+}
+
+span#icon img {
+    margin: 15px; 
+    width: 45px;
+}
+
+span#signoff p span {
+    color: white;
+    background: var(--blue);
+    border: 2px solid var(--blue);
+    border-radius: 10px;
+    border-width: 5px;
+}
